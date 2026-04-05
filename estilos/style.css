@@ -137,14 +137,14 @@ article h2 {
   margin-bottom: 10px;
 }
 
-article#video .video-container {
+article#video #video-container {
   position: relative;  
   width: 100%;
   margin: auto;
   aspect-ratio: 16/9;  
 }
 
-.video-container iframe {
+#video-container iframe {
   position: absolute;
   top: 0;
   left: 0;
